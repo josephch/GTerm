@@ -24,7 +24,7 @@ PseudoTerminal::PseudoTerminal():master(-1),slave(-1)
 PseudoTerminal::~PseudoTerminal()
 {
 	done();
-	delete ptsname;
+	//delete ptsname;
 }
 
 void PseudoTerminal::done()
